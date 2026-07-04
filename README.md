@@ -1,6 +1,6 @@
 # bad API maxxxer onekey app
 
-A minimal Python desktop app that serves random content at the press of a key. 4 modes, 4 APIs.
+A minimal Python desktop app that serves random content at the press of the space key key. Long press to change the mode : 4 mode, 4 API.
 
 ## Modes
 
@@ -18,15 +18,39 @@ A minimal Python desktop app that serves random content at the press of a key. 4
 
 ## Setup
 
-Requirements: Python 3.12+
+Requirements: 
+- Python 3.12+
+
+- NASA API key (optional but useful if you wanna test this mode) --> Get a free key at https://api.nasa.gov
 
 
-
-NASA API key (optional):
-
+Clone the repo and set up the environment:
 
 
-Get a free key at https://api.nasa.gov
+```bash
+git clone https://github.com/Gabouin/reddit-random
+cd reddit-random
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install customtkinter requests
+```
+
+<br>
+
+Optionally add a NASA API key in a .env file (a demo key is used by default):
+
+```bash
+echo "NASA_API_KEY=your_key_here" > .env
+```
+
+<br>
+
+Run the app:
+
+
+```bash
+python main.py
+```
 
 ## Run
 
@@ -38,3 +62,6 @@ Get a free key at https://api.nasa.gov
 - api.nasa.gov - space
 - hacker-news.firebaseio.com - tech
 - uselessfacts.jsph.pl - facts
+
+
+
