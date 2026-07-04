@@ -16,7 +16,7 @@ A minimal Python desktop app that serves random content at the press of the spac
 - Short press  - fetch new content
 - Long press  (> 0.5s) - switch mode
 
-## Setup
+## Setup and run
 
 Requirements: 
 - Python 3.12+
@@ -52,8 +52,6 @@ Run the app:
 python main.py
 ```
 
-## Run
-
 
 
 ## APIs
@@ -62,6 +60,13 @@ python main.py
 - api.nasa.gov - space
 - hacker-news.firebaseio.com - tech
 - uselessfacts.jsph.pl - facts
+
+## Pictures
+
+<img width="590" height="421" alt="Screenshot 2026-07-04 at 10 00 59 pm" src="https://github.com/user-attachments/assets/c3602256-f807-466a-a537-025c818f61b2" />
+<img width="594" height="421" alt="Screenshot 2026-07-04 at 9 56 39 pm" src="https://github.com/user-attachments/assets/654dd359-180f-48a6-b2ad-d5238a60033f" />
+<img width="589" height="424" alt="Screenshot 2026-07-04 at 9 57 42 pm" src="https://github.com/user-attachments/assets/cbfe063b-654c-46ae-aa69-f379341cfc8c" />
+<img width="598" height="423" alt="Screenshot 2026-07-04 at 9 57 53 pm" src="https://github.com/user-attachments/assets/c1d7cf97-0689-441f-a3db-ba3afe52df61" />
 
 
 
