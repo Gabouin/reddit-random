@@ -1,4 +1,4 @@
-ÿþ# bad API maxxxer onekey app
+# bad API maxxxer onekey app
 
 A minimal Python desktop app that serves random content at the press of a key. 4 modes, 4 APIs.
 
