@@ -129,7 +129,7 @@ def finalize_release():
 window = tk.Tk()
 window.title("Space Press")
 window.geometry("600x400")
-window.configure(bg=MODE_COLORS["joke"])
+window.configure(bg=MODE_COLORS["joke"]) #joke is the worst one
 
 mode_label = tk.Label(
     window,

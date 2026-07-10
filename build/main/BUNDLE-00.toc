@@ -1,0 +1,1 @@
+([('main', '/Users/gabin/reddit-random/dist/main', 'EXECUTABLE')],)
